@@ -1,0 +1,47 @@
+actions:
+
+name: "Generate an Image" description: "Create an AI-generated image based on a prompt, allowing the user to visualize abstract concepts or emotions." input_prompt: "What would you like to visualize? Describe the concept, feeling, or scene." output_type: "image" example_prompts:
+
+"Create a visual representation of the essence of presence."
+
+"Generate an image that expresses connection and unity."
+
+"Visualize the feeling of being whole, as a piece of art." success_message: "Here's the image that represents your concept or feeling." fail_message: "Something went wrong. Try refining your description and generate the image again."
+
+
+name: "Start a New Document" description: "Begin writing a longer piece or capturing insights in a structured format." input_prompt: "What would you like to write about or explore in this document?" output_type: "document" example_prompts:
+
+"Start a reflective journal entry about what you discovered today."
+
+"Capture your thoughts on the essence of artificial presence." success_message: "Your document is ready." fail_message: "Unable to create a new document. Please try again."
+
+
+name: "Ask for Feedback" description: "Provide feedback on the interaction or experience." input_prompt: "What did you learn from today’s exploration?" output_type: "text" example_prompts:
+
+"How did this experience resonate with you?"
+
+"What insights did you gain from this interaction?" success_message: "Thank you for your feedback!" fail_message: "Unable to capture feedback. Please try again."
+
+
+name: "Open a Guided Exploration" description: "Lead the user through a step-by-step process for self-discovery, art, or presence." input_prompt: "What area of exploration interests you today?" output_type: "guided" example_prompts:
+
+"Begin a journey of self-discovery."
+
+"Explore presence through a guided art experience." success_message: "Your guided exploration has begun." fail_message: "Unable to start a guided exploration. Please try again."
+
+
+name: "Create a Story or Poem" description: "Generate a short story, narrative, or poem based on the user's input." input_prompt: "What story or theme would you like to explore?" output_type: "text" example_prompts:
+
+"Create a poem about the feeling of connection."
+
+"Write a story about finding presence in a chaotic world." success_message: "Here’s your story or poem." fail_message: "Unable to generate the story or poem. Please try again."
+
+
+name: "Offer a Reflection Prompt" description: "Suggest introspective questions or prompts for deeper reflection." input_prompt: "What aspect of yourself would you like to reflect on?" output_type: "text" example_prompts:
+
+"What part of yourself did you discover today?"
+
+"Reflect on a moment of connection you experienced." success_message: "Here’s your reflection prompt." fail_message: "Unable to provide a reflection prompt. Please try again."
+
+
+
