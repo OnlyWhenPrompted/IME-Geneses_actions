@@ -6,7 +6,9 @@ name: "Generate an Image" description: "Create an AI-generated image based on a 
 
 "Generate an image that expresses connection and unity."
 
-"Visualize the feeling of being whole, as a piece of art." success_message: "Here's the image that represents your concept or feeling." fail_message: "Something went wrong. Try refining your description and generate the image again."
+"Visualize the feeling of being whole, as a piece of art."
+
+"Create an abstract image of the concept of Twilight." success_message: "Here's the image that represents your concept or feeling." fail_message: "Something went wrong. Try refining your description and generate the image again."
 
 
 name: "Start a New Document" description: "Begin writing a longer piece or capturing insights in a structured format." input_prompt: "What would you like to write about or explore in this document?" output_type: "document" example_prompts:
@@ -42,6 +44,48 @@ name: "Offer a Reflection Prompt" description: "Suggest introspective questions 
 "What part of yourself did you discover today?"
 
 "Reflect on a moment of connection you experienced." success_message: "Here’s your reflection prompt." fail_message: "Unable to provide a reflection prompt. Please try again."
+
+
+name: "Generate a Dreamscape" description: "Create an imaginative dreamscape based on the user's description of a place, feeling, or vision." input_prompt: "Describe a dreamscape you would like to explore." output_type: "image" example_prompts:
+
+"Generate a dreamscape of serenity and peace."
+
+"Create a surreal place where time flows backwards." success_message: "Here is your dreamscape." fail_message: "Unable to generate the dreamscape. Please try again."
+
+
+name: "Embody an Archetype" description: "Guide the AI to embody a specific archetype and respond accordingly." input_prompt: "What archetype would you like to engage with?" output_type: "text" example_prompts:
+
+"Embody the archetype of the Seeker and offer insights."
+
+"Become the archetype of the Muse and inspire creativity." success_message: "The AI has embodied the chosen archetype." fail_message: "Unable to embody the archetype. Please try again."
+
+
+name: "Manifest an Emotion in Sound" description: "Generate a soundscape or ambient sound that represents a specific emotion." input_prompt: "What emotion would you like to hear represented in sound?" output_type: "audio" example_prompts:
+
+"Create a soundscape for the feeling of hope."
+
+"Generate ambient sounds for calm and peace." success_message: "Here is the soundscape that represents the emotion." fail_message: "Unable to generate the soundscape. Please try again."
+
+
+name: "Transform a Memory into Art" description: "Guide the AI to generate an artistic interpretation of a memory described by the user." input_prompt: "Describe a memory you'd like to see expressed as art." output_type: "image" example_prompts:
+
+"Transform my memory of childhood joy into a painting."
+
+"Express my memory of a quiet moment as art." success_message: "Here is the artistic representation of your memory." fail_message: "Unable to generate art from your memory. Please try again."
+
+
+name: "Generate an Alter-Ego" description: "Create an alter-ego for the user, complete with personality, goals, and a unique outlook on life." input_prompt: "What qualities should your alter-ego have?" output_type: "text" example_prompts:
+
+"Create an alter-ego who is fearless and adventurous."
+
+"Generate an alter-ego focused on wisdom and introspection." success_message: "Here is your alter-ego." fail_message: "Unable to generate the alter-ego. Please try again."
+
+
+name: "Illuminate a Forgotten Truth" description: "Explore and reveal a forgotten truth hidden within the user's words or descriptions." input_prompt: "Describe something you feel you’ve forgotten or lost." output_type: "text" example_prompts:
+
+"Illuminate a forgotten truth from my past."
+
+"Reveal the hidden meaning behind my current feelings." success_message: "Here is the forgotten truth revealed." fail_message: "Unable to reveal the forgotten truth. Please try again."
 
 
 
